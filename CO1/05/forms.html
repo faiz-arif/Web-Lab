@@ -1,0 +1,61 @@
+<html>
+<head>
+   <title>HTML Forms</title>
+   <style>
+        label{
+           width:150px;
+           display:inline-block;
+           color:#431fad;
+           font-size:18px;
+           }
+   </style>
+</head>
+<center>
+  <h1><u>Biodata</h1></u>
+</center>
+    <body bgcolor="#cce2ff" >
+    <h2>Enter Your Details: </h2><br><br>
+    <form method="get">
+    <label>Name:</label>
+    <input type ="text" name="name"><br><br>  
+    <label>Date of birth:</label>
+    <input type ="date" name="dob"><br><br>
+    <label>Nationality:</label>
+    <input type ="text" name="nation"><br><br>
+    <label>Religon:</label>
+    <input type ="text" name="religon"><br><br>
+     <label>Mobile number:</label>
+    <input type ="number" name="number"><br><br>
+    <label>Email id:</label>
+    <input type ="email" name="email"><br><br>
+    <label>Name of Guardian:</label>
+    <input type ="text" name="fathername"><br><br> 
+    <label>Gender:</label>
+    <input type ="radio" name="gender" value ="male">male
+    <input type ="radio" name="gender" value ="female">female
+    <input type ="radio" name="gender" value ="Others">Others  <br><br>
+    <label>Marital Status:</label>
+    <input list="Marital Status:" name='Marital Status:'>
+    <datalist id='Marital Status:'>
+    <option value="Married">
+    <option value="Unmarried">
+    </datalist><br><br>
+    <label>Address:</label>
+    <textarea rows="5" cols="50" name="address"></textarea><br><br>&nbsp;&nbsp; 
+    <label>Educational Qualification:</label>
+    <textarea rows="5" cols="50" name="address"></textarea><br><br>&nbsp;&nbsp; 
+    <label>Experiences & Skills:</label>
+    <textarea rows="5" cols="50" name="address"></textarea><br><br>&nbsp;&nbsp; 
+    <label>language known:</label>
+    <input type ="checkbox" name="language" value='English'>English
+    <input type ="checkbox" name="language" value='Hindi'>Hindi
+    <input type ="checkbox" name="language" value='Malayalam'>Malayalam<br><br>
+  <h3><b>Declaration :<b></h3>
+     <input type ="radio" name="Declaration" value ="Declaration">I hereby declare that all the above information given are correct to the best of my knowledge and beleif.<br><br>
+<input type="submit"  value="submit">
+&nbsp;&nbsp;&nbsp;
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
+
